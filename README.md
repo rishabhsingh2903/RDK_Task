@@ -51,5 +51,11 @@ A Command Line Interface (CLI) application that allows users to:
    g++ -o Algo Algo.cpp
    ```
 2. Run:
-   Mac/Linux -> ./Algo
-   Windows -> Algo.exe
+   Mac/Linux
+   ```bash
+   ./Algo
+   ```
+   Windows
+   ```bash
+   Algo.exe
+   ```
