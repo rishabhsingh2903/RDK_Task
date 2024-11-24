@@ -34,6 +34,10 @@ A Command Line Interface (CLI) application that allows users to:
    ```bash
    npm install
    ```
+3. Run Application:
+   ```bash
+   node app.js
+   ```
 
 ## PseudoToCode
 
