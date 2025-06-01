@@ -1,0 +1,18 @@
+name: ci/dev-check
+on:
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js (if you need it)
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - name: Run a placeholder step
+        run: 'echo "ci/dev-check: all good"'
+
