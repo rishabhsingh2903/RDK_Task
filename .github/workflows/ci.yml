@@ -2,7 +2,7 @@ name: ci/dev-check
 on:
   pull_request:
     branches:
-      - dev
+      - main
 
 jobs:
   build:
