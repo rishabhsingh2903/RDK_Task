@@ -34,7 +34,7 @@ int main() {
     for (int i = 0; i < n1; i++) {
         cout << arr1[i] << " ";
     }
-    cout << endl;
+    // cout << endl;
     cout << "Median of Array 1: " << findMedian(arr1, n1) << endl << endl;
 
     // Test Case 2
