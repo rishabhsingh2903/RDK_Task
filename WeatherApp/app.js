@@ -16,9 +16,9 @@ import dotenv from "dotenv";
 dotenv.config();
 //declaring list of Cities.
 const Cities = [];
-console.log(
-  chalk.grey(figlet.textSync("Weather App", { horizontalLayout: "full" }))
-);
+// console.log(
+//   chalk.grey(figlet.textSync("Weather App", { horizontalLayout: "full" }))
+// );
 // APIcall makes the GET API call and fetches the weather data
 async function APIcall(city) {
   const options = {
